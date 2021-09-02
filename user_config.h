@@ -68,10 +68,10 @@
 #define		PWM_CH9		6       // Импульс повышающего напряжения на клапана
 // Если клапан нормально закрыты ставим false
 // Если клапан нормально открытый ставим true
-#define		PWM_CH1_Invert	false
-#define		PWM_CH2_Invert	false
-#define		PWM_CH3_Invert	false
-#define		PWM_CH4_Invert	false
+#define		PWM_CH1_Invert	true
+#define		PWM_CH2_Invert	true
+#define		PWM_CH3_Invert	true
+#define		PWM_CH4_Invert	true
 // Дальше 5 строк не трогаем
 #define		PWM_CH5_Invert	false
 #define		PWM_CH6_Invert	false
@@ -84,8 +84,8 @@
 #define		SD_out_temp	10
 // Какой используем датчик давления
 //#define		Pressure_BMP085
-#define		Pressure_BMP180
-//#define		Pressure_BMP280
+//#define		Pressure_BMP180
+#define		Pressure_BMP280
 //#define		Pressure_BME280
 // Вывод отладочной информации в UART
 //#define		Debug_en
